@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "misinfo"
+version = "0.1.0"
+description = ""
+authors = ["Corentin Vande Kerckhove <corentin.vandekerckhove@uclouvain.be>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.1"
+scikit-learn = "^1.4.1"
+nltk = "^3.8.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
